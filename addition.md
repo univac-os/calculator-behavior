@@ -80,4 +80,3 @@ Scenario: operation error
   and till I press "equals"
   
   Then I see the "ERROR stating operation error" as the result
-  
