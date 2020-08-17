@@ -9,7 +9,7 @@ Scenario: Multiple of two positive numbers
        And I type in "positive number"
        And I press "equals"
   
-  Then I see the "positive multipled number" as the result
+  Then I see the "positive number" as the result
 
 Scenario: multiple of fraction
   
@@ -20,7 +20,7 @@ Scenario: multiple of fraction
   and I type in "fraction number"
   and I press "equals"
   
-  Then I see the "multipled fraction number" as the result
+  Then I see the "fraction number" as the result
   
 Scenario: multiple of positive and negative number
   
@@ -55,7 +55,7 @@ Scenario: Multiple of more than 2 numbers
   and I press "*"
   and till I press "equals"
   
-  Then I see the "multipled positive number" as the result
+  Then I see the "positive number" as the result
 
 Scenario: multiple numbers where the result goes out of range
   
@@ -79,5 +79,5 @@ Scenario: operation error
   and I press "positive number"
   and till I press "equals"
   
-  Then I see the "multipled value with last sign
+  Then I see the "value with last sign
   stating operation taken" as the result
