@@ -34,16 +34,16 @@ Scenario: multiple of positive and negative number
   Then I see the "negative number" as
   the result based on values
   
-Scenario: Multiple of 1 
-  
+Scenario: multiple of 0
+
   Given The calculator must be turn on
   
   When I type in "number"
   and I press "*"
-  and I type in "1"
+  and I type in "0"
   and I press "equals"
   
-  Then I see the "same number" as the result
+  Then I see the "zero" as the result
 
 Scenario: Multiple of more than 2 numbers
   
