@@ -31,11 +31,9 @@ Scenario: Addition of positive and negative number
   and I type in "negative number"
   and I press "equals"
   
-  Then I see the "positive number" as the result 
-  if positive number is more than negative number 
-  or I see the "nagative number" as the result 
-  in vice versa conditon
-
+  Then I see the "positive/neagtive number" as 
+  the result based on values
+  
 Scenario: Addition of decimals
   
   Given The calculator must be turn on
