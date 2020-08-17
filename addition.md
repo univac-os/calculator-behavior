@@ -11,10 +11,13 @@ Scenario: Addition of two positive numbers
   
   Then I see the "added number" as the result
 
-Scenario: (describe a scenario here)
+Scenario: Addition of fraction
   
-  Given (state the initial condition)
+  Given The calculator must be turn on
   
-  When (state the event)
+  When I type in "fraction number"
+  and I press "plus"
+  and I type in"fraction number"
+  and I press "equals"
   
-  Then (state the effect)
+  Then I see the "added fraction number" as the result
