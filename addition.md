@@ -31,8 +31,7 @@ Scenario: Addition of postive and negative number
   and I type in"negative number"
   and I press "equals"
   
-  Then I see the "postive number" as the result if psotive number is more than negative number 
-  or I see the "nagative number" as the result in vice versa conditon
+  Then I see the "postive number" as the result if psotive number is more than negative number or I see the "nagative number" as the result in vice versa conditon
 
 Scenario: Addition of decimals
   
