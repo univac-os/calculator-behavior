@@ -55,3 +55,4 @@ Scenario: Addition of fraction
   and I press "equals"
   
   Then I see the "added fraction number" as the result
+
