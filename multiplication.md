@@ -1,6 +1,6 @@
 # Multiplication
 
-Scenario: Multiple of two positive numbers
+Scenario: multiplication of two positive numbers
   
   Given The calculator must be turn on
 
@@ -11,7 +11,7 @@ Scenario: Multiple of two positive numbers
   
   Then I see the "positive number" as the result
 
-Scenario: multiple of fraction
+Scenario: multiplication of fraction
   
   Given The calculator must be turn on
   
@@ -22,7 +22,7 @@ Scenario: multiple of fraction
   
   Then I see the "fraction number" as the result
   
-Scenario: multiple of positive and negative number
+Scenario: multiplication of positive and negative number
   
   Given The calculator must be turn on
   
@@ -34,7 +34,7 @@ Scenario: multiple of positive and negative number
   Then I see the "negative number" as
   the result based on values
   
-Scenario: multiple of 0
+Scenario: multiplication of 0
 
   Given The calculator must be turn on
   
@@ -45,7 +45,7 @@ Scenario: multiple of 0
   
   Then I see the "zero" as the result
 
-Scenario: Multiple of more than 2 numbers
+Scenario: multiplication of more than 2 numbers
   
   Given The calculator must be turn on
   
@@ -57,7 +57,7 @@ Scenario: Multiple of more than 2 numbers
   
   Then I see the "positive number" as the result
 
-Scenario: multiple numbers where the result goes out of range
+Scenario: multiplication numbers where the result goes out of range
   
   Given The calculator must be turn on
   
