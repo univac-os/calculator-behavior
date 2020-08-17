@@ -31,7 +31,7 @@ Scenario: Addition of positive and negative number
   and I type in "negative number"
   and I press "equals"
   
-  Then I see the "positive/neagtive number" as 
+  Then I see the "positive/neagtive number" as
   the result based on values
   
 Scenario: Addition of decimals
