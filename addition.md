@@ -22,7 +22,7 @@ Scenario: Addition of fraction
   
   Then I see the "added fraction number" as the result
   
-Scenario: Addition of postive and negative number
+Scenario: Addition of positive and negative number
   
   Given The calculator must be turn on
   
@@ -31,7 +31,10 @@ Scenario: Addition of postive and negative number
   and I type in"negative number"
   and I press "equals"
   
-  Then I see the "postive number" as the result if psotive number is more than negative number or I see the "nagative number" as the result in vice versa conditon
+  Then I see the "postive number" as the result if positive
+  number is more than negative number 
+  or I see the "nagative number" as the result 
+  in vice versa conditon
 
 Scenario: Addition of decimals
   
@@ -54,4 +57,3 @@ Scenario: Addition of fraction
   and I press "equals"
   
   Then I see the "added fraction number" as the result
-
